@@ -1,0 +1,5 @@
+I had to install chocolatey, then make, in order to run make.
+I also modified the Makefile to swap out the unix commands to Windows-friendly commands, e.g. rm, touch, wget. Further, I switched / with \. I also changed the conda environment to my existing img2tabenv python virtual environment. 
+For packages starting from "Distance" onwards, I needed to install additional C++ tools https://visualstudio.microsoft.com/visual-cpp-build-tools/ as the warning guided me.
+I ran the make file from Powershell opened with Admin access
+  
